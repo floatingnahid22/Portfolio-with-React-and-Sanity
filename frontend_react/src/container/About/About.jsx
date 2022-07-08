@@ -1,31 +1,10 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+
 import { client, urlFor } from "../../client";
-import { images } from "../../constants";
+import { AppWrap, MotionWrap } from "../../wrapper";
 import "./About.scss";
 
-const abouts = [
-  {
-    title: "Web Development",
-    description: "I am a good web developer.",
-    imgUrl: images.about01,
-  },
-  {
-    title: "Frontend Development",
-    description: "I am a good web developer.",
-    imgUrl: images.about03,
-  },
-  {
-    title: "Backend Development",
-    description: "I am a good web developer.",
-    imgUrl: images.about04,
-  },
-  {
-    title: "MERN Stack",
-    description: "I am a good web developer.",
-    imgUrl: images.about02,
-  },
-];
 const About = () => {
   const [abouts, setAbouts] = useState([]);
 
@@ -36,10 +15,11 @@ const About = () => {
       setAbouts(data);
     });
   }, []);
+
   return (
     <>
       <h2 className="head-text">
-        I Know that <span>Good Development</span> <br />
+        I Know that <span>Good Design</span> <br />
         means <span>Good Business</span>
       </h2>
 
@@ -66,4 +46,8 @@ const About = () => {
   );
 };
 
-export default About;
+export default AppWrap(
+  MotionWrap(About, "app__about"),
+  "about",
+  "app__whitebg"
+);

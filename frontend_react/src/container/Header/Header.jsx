@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 
 import { images } from "../../constants";
+import { AppWrap } from "../../wrapper";
 import "./Header.scss";
 
 const scaleVariants = {
@@ -25,13 +26,14 @@ const Header = () => (
         <div className="badge-cmp app__flex">
           <span>👋</span>
           <div style={{ marginLeft: 20 }}>
-            <p className="p-text">Hello, This is</p>
-            <h1 className="head-text">Nahid</h1>
+            <p className="p-text">Hello, I am</p>
+            <h1 className="head-text">Micael</h1>
           </div>
         </div>
 
         <div className="tag-cmp app__flex">
-          <p className="p-text">Full Stack Web Developer</p>
+          <p className="p-text">Web Developer</p>
+          <p className="p-text">Freelancer</p>
         </div>
       </div>
     </motion.div>
@@ -65,4 +67,4 @@ const Header = () => (
   </div>
 );
 
-export default Header;
+export default AppWrap(Header, "home");
