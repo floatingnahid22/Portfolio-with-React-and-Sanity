@@ -40,5 +40,3 @@ const SocialMedia = () => (
 );
 
 export default SocialMedia;
-
-// <a target="_blank" title="GitHub" rel="noopener noreferrer nofollow" href="https://github.com"></a>
