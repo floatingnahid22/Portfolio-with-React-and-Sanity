@@ -18,6 +18,7 @@ import node from "../assets/node.png";
 import python from "../assets/python.png";
 import react from "../assets/react.png";
 import redux from "../assets/redux.png";
+import sanity from "../assets/sanity.png";
 import sass from "../assets/sass.png";
 import typescript from "../assets/typescript.png";
 import vscode from "../assets/vscode.png";
@@ -72,6 +73,7 @@ export default {
   jest,
   mobile,
   api,
+  sanity,
   cpp,
   css,
   heroku,
