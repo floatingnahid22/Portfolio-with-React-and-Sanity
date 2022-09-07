@@ -2,6 +2,4 @@
 
 ## Project Link:
 
-```sh
-    https://portfolio-nahid1.netlify.app/
-```
+    [![portfolio](Capture.PNG)](https://portfolio-nahid1.netlify.app/)
