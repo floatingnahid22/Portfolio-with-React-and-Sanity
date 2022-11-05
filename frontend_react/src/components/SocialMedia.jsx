@@ -12,7 +12,7 @@ const SocialMedia = () => (
         target="_blank"
         title="Resume"
         rel="noopener noreferrer nofollow"
-        href="https://drive.google.com/file/d/14Kx2K9sz5u8-JAheOFZz0_KiuqjzRSpU/view?usp=sharing"
+        href="https://drive.google.com/drive/folders/1VSDfmrqOLy_p6cgsFoXy-xe7Tt3Cl5K8?usp=sharing"
       >
         {" "}
         <BsFillCloudArrowDownFill />
