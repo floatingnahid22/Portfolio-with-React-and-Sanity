@@ -1,9 +1,10 @@
 import {
   BsFillCloudArrowDownFill,
   BsGithub,
-  BsInstagram,
 } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
+import { AiFillLinkedin } from "react-icons/ai";
+
 
 const SocialMedia = () => (
   <div className="app__social">
@@ -45,10 +46,10 @@ const SocialMedia = () => (
         target="_blank"
         title="Instagram"
         rel="noopener noreferrer nofollow"
-        href="https://www.instagram.com/imnahidhossain/"
+        href="https://www.linkedin.com/in/nahid-hossain-66433919b/"
       >
         {" "}
-        <BsInstagram />
+        <AiFillLinkedin />
       </a>
     </div>
   </div>

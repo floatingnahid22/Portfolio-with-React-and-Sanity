@@ -45,11 +45,10 @@ const Work = () => {
       <div className="app__work-filter">
         {[
           "HTML & CSS",
-          "Django",
           "JavaScript",
           "React JS",
           "Express JS",
-          "MERN",
+          "Angular",
           "All",
         ].map((item, index) => (
           <div

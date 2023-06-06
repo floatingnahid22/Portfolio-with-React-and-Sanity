@@ -2,6 +2,9 @@ import api from "../assets/api.png";
 import cpp from "../assets/cpp.png";
 import css from "../assets/css.png";
 import django from "../assets/django.png";
+import angular from "../assets/angular.png";
+import linux from "../assets/linux.png";
+import nest from "../assets/nest.png";
 import email from "../assets/email.png";
 import expressjs from "../assets/expressjs.png";
 import git from "../assets/git.png";
@@ -50,8 +53,12 @@ import profile from "../assets/profile.png";
 import amazon from "../assets/amazon.png";
 import skype from "../assets/skype.png";
 
+// eslint-disable-next-line
 export default {
   email,
+  angular,
+  nest,
+  linux,
   adviseapp,
   admindashboard,
   blogapp,
