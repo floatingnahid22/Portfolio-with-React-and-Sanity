@@ -48,6 +48,7 @@ const Work = () => {
           "JavaScript",
           "React JS",
           "Express JS",
+          "MEAN",
           "Angular",
           "All",
         ].map((item, index) => (

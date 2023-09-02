@@ -32,7 +32,7 @@ const Header = () => (
         </div>
 
         <div className="tag-cmp app__flex">
-          <p className="p-text">Software Engineer(Frontend)</p>
+          <p className="p-text">Software Engineer(Full Stack)</p>
         </div>
       </div>
     </motion.div>
