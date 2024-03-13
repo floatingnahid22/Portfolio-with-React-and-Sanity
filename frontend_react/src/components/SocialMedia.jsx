@@ -46,7 +46,7 @@ const SocialMedia = () => (
         target="_blank"
         title="Instagram"
         rel="noopener noreferrer nofollow"
-        href="https://www.linkedin.com/in/nahid-hossain-66433919b/"
+        href="https://www.linkedin.com/in/md-nahid-hossain-66433919b/"
       >
         {" "}
         <AiFillLinkedin />

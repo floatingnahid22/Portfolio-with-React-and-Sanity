@@ -46,18 +46,18 @@ const Work = () => {
         {[
           "HTML & CSS",
           "JavaScript",
-          "React JS",
-          "Express JS",
-          "MEAN",
           "Angular",
+          "React JS",
+          "Node JS",
+          "MEAN",
+          "WordPress",
           "All",
         ].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}
-            className={`app__work-filter-item app__flex p-text ${
-              activeFilter === item ? "item-active" : ""
-            }`}
+            className={`app__work-filter-item app__flex p-text ${activeFilter === item ? "item-active" : ""
+              }`}
           >
             {item}
           </div>
