@@ -2,4 +2,4 @@
 
 ## Project Link:
 
-[![portfolio](Capture1.PNG)](https://portfolio-nahidv2.netlify.app/)
+[![portfolio](Capture1.PNG)](https://nahidhossain.netlify.app/)
